@@ -1,7 +1,9 @@
 # Smartcampus Flora e Funga - Ingestão de Dados ⚙️
 
 Este repositório contém o script de carga e processamento de dados responsável por extrair, transformar e indexar o catálogo de espécies biológicas no **Elasticsearch**. Ele funciona como a engrenagem de ETL (Extract, Transform, Load) que popula o motor de busca utilizado pelo aplicativo principal.
-[Base de dados utilizadas]([url](https://floradobrasil.jbrj.gov.br/reflora/listaBrasil/PrincipalUC/PrincipalUC.do;jsessionid=ED54ADC1BAFBAB95DB43A7487518EED4#CondicaoTaxonCP))
+
+[Base de dados do Jardim Botânico do Rio de Janeiro utilizada](https://floradobrasil.jbrj.gov.br/reflora/listaBrasil/PrincipalUC/PrincipalUC.do;jsessionid=ED54ADC1BAFBAB95DB43A7487518EED4#CondicaoTaxonCP).
+
 ## 🔄 Fluxo de Funcionamento
 
 1. **Extração:** Leitura dos dados brutos de fontes taxonômicas (como arquivos CSV, JSON ou planilhas de referência botânica).
